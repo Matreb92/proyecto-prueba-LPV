@@ -1,0 +1,18 @@
+/*cambio de color para la barra de navegación acorde a los colores institucionales*/
+.container-fluid, {
+background-color: #02458b;
+}
+
+/*cambio de color para íconos de notificaciones y mensajes (lado superior derecho)*/
+.fas::before, .far::before, .fab::before, .fa-solid::before, .fa-regular::before, .fa-brands::before, .fa::before, {
+color: white;
+}
+
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),{
+color: white;
+}
+
+/*cambio de color para botones de navegación*/
+.primary-navigation .navigation .nav-link {
+color: white;
+}
